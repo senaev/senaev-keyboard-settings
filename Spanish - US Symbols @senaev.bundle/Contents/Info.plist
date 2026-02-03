@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols</string>
+	<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols@senaev</string>
 	<key>CFBundleName</key>
-	<string>Spanish - US Symbols</string>
+	<string>Spanish - US Symbols @senaev</string>
 	<key>CFBundleVersion</key>
 	<string></string>
-	<key>KLInfo_Spanish - US Symbols by @senaev</key>
+	<key>KLInfo_Spanish - US Symbols @senaev.bundle</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols.spanish-ussymbolsby@senaev</string>
+		<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols@senaev.spanish-ussymbols@senaev.bundle</string>
 		<key>TISIntendedLanguage</key>
 		<string>es</string>
 	</dict>
