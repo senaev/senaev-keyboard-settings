@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols</string>
+	<key>CFBundleName</key>
+	<string>Spanish - US Symbols</string>
+	<key>CFBundleVersion</key>
+	<string></string>
+	<key>KLInfo_Spanish - US Symbols by @senaev</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols.spanish-ussymbolsby@senaev</string>
+		<key>TISIntendedLanguage</key>
+		<string>es</string>
+	</dict>
+</dict>
+</plist>
