@@ -1,5 +1,5 @@
 {
-  "description": "Fn (tap) toggles input source EN <-> RU (no macOS shortcut)",
+  "description": "Fn (tap) toggles input source EN <-> RU (custom layouts via input_source_id)",
   "manipulators": [
     {
       "from": {
@@ -9,7 +9,13 @@
           "optional": ["any"]
         }
       },
-      "to": [{ "select_input_source": { "language": "es" } }],
+      "to": [
+        {
+          "select_input_source": {
+            "input_source_id": "com.senaev.keyboardlayout.es"
+          }
+        }
+      ],
       "type": "basic"
     },
     {
@@ -20,7 +26,13 @@
           "optional": ["any"]
         }
       },
-      "to": [{ "select_input_source": { "language": "en" } }],
+      "to": [
+        {
+          "select_input_source": {
+            "input_source_id": "com.senaev.keyboardlayout.en"
+          }
+        }
+      ],
       "type": "basic"
     },
     {
@@ -31,7 +43,13 @@
           "optional": ["any"]
         }
       },
-      "to": [{ "select_input_source": { "language": "ru" } }],
+      "to": [
+        {
+          "select_input_source": {
+            "input_source_id": "com.senaev.keyboardlayout.ru"
+          }
+        }
+      ],
       "type": "basic"
     },
     {
@@ -47,7 +65,11 @@
         "modifiers": { "optional": ["any"] }
       },
       "to": [
-        { "select_input_source": { "language": "ru" } },
+        {
+          "select_input_source": {
+            "input_source_id": "com.senaev.keyboardlayout.ru"
+          }
+        },
         {
           "set_variable": {
             "name": "lang_toggle",
@@ -70,7 +92,11 @@
         "modifiers": { "optional": ["any"] }
       },
       "to": [
-        { "select_input_source": { "language": "en" } },
+        {
+          "select_input_source": {
+            "input_source_id": "com.senaev.keyboardlayout.en"
+          }
+        },
         {
           "set_variable": {
             "name": "lang_toggle",
