@@ -1,0 +1,84 @@
+{
+  "description": "Fn (tap) toggles input source EN <-> RU (no macOS shortcut)",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "s",
+        "modifiers": {
+          "mandatory": ["control"],
+          "optional": ["any"]
+        }
+      },
+      "to": [{ "select_input_source": { "language": "es" } }],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "e",
+        "modifiers": {
+          "mandatory": ["control"],
+          "optional": ["any"]
+        }
+      },
+      "to": [{ "select_input_source": { "language": "en" } }],
+      "type": "basic"
+    },
+    {
+      "from": {
+        "key_code": "r",
+        "modifiers": {
+          "mandatory": ["control"],
+          "optional": ["any"]
+        }
+      },
+      "to": [{ "select_input_source": { "language": "ru" } }],
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "name": "lang_toggle",
+          "type": "variable_if",
+          "value": 0
+        }
+      ],
+      "from": {
+        "key_code": "fn",
+        "modifiers": { "optional": ["any"] }
+      },
+      "to": [
+        { "select_input_source": { "language": "ru" } },
+        {
+          "set_variable": {
+            "name": "lang_toggle",
+            "value": 1
+          }
+        }
+      ],
+      "type": "basic"
+    },
+    {
+      "conditions": [
+        {
+          "name": "lang_toggle",
+          "type": "variable_if",
+          "value": 1
+        }
+      ],
+      "from": {
+        "key_code": "fn",
+        "modifiers": { "optional": ["any"] }
+      },
+      "to": [
+        { "select_input_source": { "language": "en" } },
+        {
+          "set_variable": {
+            "name": "lang_toggle",
+            "value": 0
+          }
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
