@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols@senaev</string>
+	<string>com.senaev.keyboardlayout.es</string>
 	<key>CFBundleName</key>
 	<string>Spanish - US Symbols @senaev</string>
 	<key>CFBundleVersion</key>
@@ -15,7 +15,7 @@
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.spanish-ussymbols@senaev.spanish-ussymbols@senaev.bundle</string>
+		<string>com.senaev.keyboardlayout.es</string>
 		<key>TISIntendedLanguage</key>
 		<string>es</string>
 	</dict>

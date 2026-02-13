@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.unsavedukeleledocument</string>
+	<string>com.senaev.keyboardlayout.en</string>
 	<key>CFBundleName</key>
 	<string>US - @senaev</string>
 	<key>CFBundleVersion</key>
@@ -15,7 +15,7 @@
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.unsavedukeleledocument.us-@senaev</string>
+		<string>com.senaev.keyboardlayout.en</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
