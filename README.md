@@ -3,7 +3,9 @@
 ## How to use
 
 - Clone repo
-- Move folders to `/Library/Keyboard Layouts/` (`sudo rm -rf /Library/Keyboard\ Layouts/*` -> `sudo cp -R ./layouts/. /Library/Keyboard\ Layouts`)
+- Move keyboard layouts from `./layouts` to `/Library/Keyboard Layouts/`
+  - `sudo rm -rf /Library/Keyboard\ Layouts/*`
+  - `sudo cp -R ./layouts/. /Library/Keyboard\ Layouts`
 - Log out and Log in MacOS
 - Choose keyboard layouts in `System Settings` -> `Keyboard` -> `Input Sources`
 
