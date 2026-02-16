@@ -1,11 +1,11 @@
 {
-  "description": "Fn (tap) toggles input source EN <-> RU (custom layouts via input_source_id)",
+  "description": "🌐 → EN↔RU | ⌥+S → ES | ⌥+E → EN | ⌥+R → RU",
   "manipulators": [
     {
       "from": {
         "key_code": "s",
         "modifiers": {
-          "mandatory": ["control"],
+          "mandatory": ["option"],
           "optional": ["any"]
         }
       },
@@ -22,7 +22,7 @@
       "from": {
         "key_code": "e",
         "modifiers": {
-          "mandatory": ["control"],
+          "mandatory": ["option"],
           "optional": ["any"]
         }
       },
@@ -39,7 +39,7 @@
       "from": {
         "key_code": "r",
         "modifiers": {
-          "mandatory": ["control"],
+          "mandatory": ["option"],
           "optional": ["any"]
         }
       },
