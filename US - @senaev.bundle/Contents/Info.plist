@@ -15,7 +15,7 @@
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>com.senaev.keyboardlayout.en</string>
+		<string>com.senaev.keyboardlayout.en.us-@senaev</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>

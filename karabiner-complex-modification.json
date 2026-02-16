@@ -1,5 +1,5 @@
 {
-  "description": "🌐 → EN↔RU | ⌥+S → ES | ⌥+E → EN | ⌥+R → RU",
+  "description": "Caps Lock → EN↔RU | ⌥+S → ES | ⌥+E → EN | ⌥+R → RU",
   "manipulators": [
     {
       "from": {
@@ -61,7 +61,7 @@
         }
       ],
       "from": {
-        "key_code": "fn",
+        "key_code": "caps_lock",
         "modifiers": { "optional": ["any"] }
       },
       "to": [
@@ -88,7 +88,7 @@
         }
       ],
       "from": {
-        "key_code": "fn",
+        "key_code": "caps_lock",
         "modifiers": { "optional": ["any"] }
       },
       "to": [

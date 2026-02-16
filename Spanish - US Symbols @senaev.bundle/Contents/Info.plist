@@ -15,7 +15,7 @@
 		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>com.senaev.keyboardlayout.es</string>
+		<string>com.senaev.keyboardlayout.es.spanish-ussymbols@senaev.bundle</string>
 		<key>TISIntendedLanguage</key>
 		<string>es</string>
 	</dict>
