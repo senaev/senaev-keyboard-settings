@@ -1,4 +1,4 @@
-# senaev-keyboard-settings\
+# senaev-keyboard-settings
 
 ## How to use
 
