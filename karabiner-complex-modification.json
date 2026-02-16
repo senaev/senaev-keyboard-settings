@@ -1,11 +1,11 @@
 {
-  "description": "Caps Lock → EN↔RU | ⌥+S → ES | ⌥+E → EN | ⌥+R → RU",
+  "description": "Caps Lock → EN↔RU | Fn+S → ES | Fn+E → EN | Fn+R → RU",
   "manipulators": [
     {
       "from": {
         "key_code": "s",
         "modifiers": {
-          "mandatory": ["option"],
+          "mandatory": ["fn"],
           "optional": ["any"]
         }
       },
@@ -28,7 +28,7 @@
       "from": {
         "key_code": "e",
         "modifiers": {
-          "mandatory": ["option"],
+          "mandatory": ["fn"],
           "optional": ["any"]
         }
       },
@@ -51,7 +51,7 @@
       "from": {
         "key_code": "r",
         "modifiers": {
-          "mandatory": ["option"],
+          "mandatory": ["fn"],
           "optional": ["any"]
         }
       },
