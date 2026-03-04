@@ -111,6 +111,14 @@
             },
             "to": [],
             "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "d",
+                "modifiers": { "mandatory": ["fn"] }
+            },
+            "to": [],
+            "type": "basic"
         }
     ]
 }
