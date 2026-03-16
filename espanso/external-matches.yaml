@@ -1,0 +1,21 @@
+# In main config, add:
+# imports:
+#  - "/Users/senaev/projects/senaev-keyboard-settings/espanso/external-matches.yaml"
+
+matches:
+  - trigger: ":cc" # White Heavy Check Mark
+    replace: "✅"
+
+  - trigger: ":pr" # Backhand Index Pointing Right
+    replace: "👉"
+
+  - trigger: ":xx" # Cross Mark
+    replace: "❌"
+
+  - trigger: ":root_folder"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $(cd ~ && pwd)"
