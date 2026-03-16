@@ -1,6 +1,6 @@
 # Install https://github.com/espanso/espanso/releases
 #
-# In main config, add search shortcut (instead of default):
+# In main config, add search shortcut (instead of default hotkey) (/Users/senaev/Library/Application Support/espanso/config/default.yml):
 # search_shortcut:
 #   SHIFT+META+V
 #
