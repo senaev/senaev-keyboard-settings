@@ -1,4 +1,10 @@
-# In main config (/Users/senaev/Library/Application Support/espanso/match/base.yml) add:
+# Install https://github.com/espanso/espanso/releases
+#
+# In main config, add search shortcut (instead of default):
+# search_shortcut:
+#   SHIFT+META+V
+#
+# In match config (/Users/senaev/Library/Application Support/espanso/match/base.yml) add:
 # imports:
 #  - "/Users/senaev/projects/senaev-keyboard-settings/espanso/external-matches.yaml"
 
