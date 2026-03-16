@@ -1,16 +1,19 @@
-# In main config, add:
+# In main config (/Users/senaev/Library/Application Support/espanso/match/base.yml) add:
 # imports:
 #  - "/Users/senaev/projects/senaev-keyboard-settings/espanso/external-matches.yaml"
 
 matches:
-  - trigger: ":cc" # White Heavy Check Mark
+  - trigger: ":cc"
     replace: "✅"
 
-  - trigger: ":pr" # Backhand Index Pointing Right
+  - trigger: ":pr" # Pointing Right
     replace: "👉"
 
-  - trigger: ":xx" # Cross Mark
+  - trigger: ":xx"
     replace: "❌"
+
+  - trigger: ":write"
+    replace: "✍️"
 
   - trigger: ":root_folder"
     replace: "{{output}}"
