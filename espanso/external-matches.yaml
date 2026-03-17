@@ -21,6 +21,15 @@ matches:
   - trigger: ":write"
     replace: "✍️"
 
+  - trigger: ":red"
+    replace: "🔴"
+
+  - trigger: ":green"
+    replace: "🟢"
+
+  - trigger: ":blue"
+    replace: "🔵"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
