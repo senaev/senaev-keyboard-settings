@@ -9,28 +9,34 @@
 #  - "/Users/senaev/projects/senaev-keyboard-settings/espanso/external-matches.yaml"
 
 matches:
-  - trigger: ":cc"
+  - trigger: "/ok"
     replace: "✅"
 
-  - trigger: ":pr" # Pointing Right
+  - trigger: "/pr" # Pointing Right
     replace: "👉"
 
-  - trigger: ":xx"
+  - trigger: "/xx"
     replace: "❌"
 
-  - trigger: ":write"
+  - trigger: "/write"
     replace: "✍️"
 
-  - trigger: ":red"
+  - trigger: "/red"
     replace: "🔴"
 
-  - trigger: ":green"
+  - trigger: "/green"
     replace: "🟢"
 
-  - trigger: ":blue"
+  - trigger: "/blue"
     replace: "🔵"
 
-  - trigger: ":root_folder"
+  - trigger: "/->"
+    replace: "→"
+
+  - trigger: "/<-"
+    replace: "←"
+
+  - trigger: "/root_folder"
     replace: "{{output}}"
     vars:
       - name: output
