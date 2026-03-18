@@ -12,6 +12,14 @@ matches:
   - trigger: ":ok"
     replace: "✅"
 
+  - trigger: ":dd"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+
   - trigger: ":pr" # Pointing Right
     replace: "👉"
 
