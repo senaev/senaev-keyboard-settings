@@ -54,7 +54,7 @@ matches:
     replace: "🟢"
 
   - trigger: ":blue"
-    replace: "🔵""
+    replace: "🔵"
 
   - trigger: ":->"
     replace: "→"
