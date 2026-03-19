@@ -26,6 +26,24 @@ matches:
   - trigger: ":xx"
     replace: "❌"
 
+  - trigger: ":warn"
+    replace: "⚠️"
+
+  - trigger: ":!!"
+    replace: "❗️"
+
+  - trigger: ":??"
+    replace: "❓"
+
+  - trigger: ":think"
+    replace: "🤔"
+
+  - trigger: ":pls"
+    replace: "🙏"
+
+  - trigger: ":shrug"
+    replace: "🤷"
+
   - trigger: ":write"
     replace: "✍️"
 
@@ -36,7 +54,7 @@ matches:
     replace: "🟢"
 
   - trigger: ":blue"
-    replace: "🔵"
+    replace: "🔵""
 
   - trigger: ":->"
     replace: "→"
