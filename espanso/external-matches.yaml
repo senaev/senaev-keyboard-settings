@@ -20,7 +20,7 @@ matches:
         params:
           format: "%Y-%m-%d"
 
-  - trigger: ":pr" # Pointing Right
+  - trigger: ":td" # TODO
     replace: "👉"
 
   - trigger: ":xx"
