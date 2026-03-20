@@ -62,6 +62,9 @@ matches:
   - trigger: ":<-"
     replace: "←"
 
+  - trigger: ":new"
+    replace: "🆕"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
