@@ -65,6 +65,18 @@ matches:
   - trigger: ":new"
     replace: "🆕"
 
+  - trigger: ":up"
+    replace: "⬆️"
+
+  - trigger: ":right"
+    replace: "➡️"
+
+  - trigger: ":down"
+    replace: "⬇️"
+
+  - trigger: ":left"
+    replace: "⬅️"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
