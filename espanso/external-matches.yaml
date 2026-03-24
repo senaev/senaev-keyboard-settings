@@ -30,8 +30,14 @@ matches:
   - trigger: ":xx"
     replace: "❌"
 
+  - trigger: ":info"
+    replace: "ℹ️"
+
   - trigger: ":warn"
     replace: "⚠️"
+
+  - trigger: ":crit"
+    replace: "🚨"
 
   - trigger: ":!!"
     replace: "❗️"
