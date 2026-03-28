@@ -87,6 +87,9 @@ matches:
   - trigger: ":left"
     replace: "⬅️"
 
+  - trigger: ":..."
+    replace: "…"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
