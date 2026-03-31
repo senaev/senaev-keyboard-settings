@@ -90,6 +90,15 @@ matches:
   - trigger: ":..."
     replace: "…"
 
+  - trigger: ":refresh"
+    replace: "🔄"
+
+  - trigger: ":plus"
+    replace: "➕"
+
+  - trigger: ":minus"
+    replace: "➖"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
