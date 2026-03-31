@@ -9,8 +9,6 @@
 #  - "/Users/senaev/projects/senaev-keyboard-settings/espanso/external-matches.yaml"
 
 matches:
-  - trigger: ":ok"
-    replace: "✅"
 
   - trigger: ":dd"
     replace: "{{mydate}}"
@@ -20,14 +18,26 @@ matches:
         params:
           format: "%Y-%m-%d"
 
-  - trigger: ":td" # TODO
+  - trigger: ":cc" # check
+    replace: "✅"
+
+  - trigger: ":ok"
+    replace: "👌"
+
+  - trigger: ":td" # To be done or defined
     replace: "👉"
 
   - trigger: ":xx"
     replace: "❌"
 
+  - trigger: ":info"
+    replace: "ℹ️"
+
   - trigger: ":warn"
     replace: "⚠️"
+
+  - trigger: ":crit"
+    replace: "🚨"
 
   - trigger: ":!!"
     replace: "❗️"
@@ -64,6 +74,30 @@ matches:
 
   - trigger: ":new"
     replace: "🆕"
+
+  - trigger: ":up"
+    replace: "⬆️"
+
+  - trigger: ":right"
+    replace: "➡️"
+
+  - trigger: ":down"
+    replace: "⬇️"
+
+  - trigger: ":left"
+    replace: "⬅️"
+
+  - trigger: ":..."
+    replace: "…"
+
+  - trigger: ":refresh"
+    replace: "🔄"
+
+  - trigger: ":plus"
+    replace: "➕"
+
+  - trigger: ":minus"
+    replace: "➖"
 
   - trigger: ":root_folder"
     replace: "{{output}}"
