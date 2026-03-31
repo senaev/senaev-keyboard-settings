@@ -18,17 +18,17 @@ matches:
         params:
           format: "%Y-%m-%d"
 
-  - trigger: ":cc" # check
+  - trigger: ":cc"
     replace: "✅"
 
-  - trigger: ":ok"
-    replace: "👌"
-
-  - trigger: ":td" # To be done or defined
+  - trigger: ":zz"
     replace: "👉"
 
   - trigger: ":xx"
     replace: "❌"
+
+  - trigger: ":ok"
+    replace: "👌"
 
   - trigger: ":info"
     replace: "ℹ️"
