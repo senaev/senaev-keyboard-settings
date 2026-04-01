@@ -99,6 +99,9 @@ matches:
   - trigger: ":minus"
     replace: "➖"
 
+  - trigger: ":link"
+    replace: "🔗"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
