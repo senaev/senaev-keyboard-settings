@@ -102,6 +102,9 @@ matches:
   - trigger: ":link"
     replace: "🔗"
 
+  - trigger: ":finish"
+    replace: "🏁"
+
   - trigger: ":root_folder"
     replace: "{{output}}"
     vars:
